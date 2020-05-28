@@ -1,0 +1,147 @@
+#topText {
+    position: relative;
+    top: 7em;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bgdimg {
+    position: absolute;
+    opacity: 30%;
+}
+
+#topDiv {
+    height: 600px;
+}
+
+#form {
+    position: relative;
+    top: 0em;
+    left: -8.7em;
+}
+
+#myInput {
+    font-size: 15px;
+}
+
+ #redBox {
+    position: absolute;
+    top: 0em;
+    border-color: red;
+}
+
+
+#logo {
+    position: relative;
+    top: 1.5em;
+    left: 1.5em;
+}
+
+#signIn {
+   position: relative;
+   top: 0;
+   left: 72em;
+   border-radius: 5px; 
+   border-color: transparent;
+}
+
+#bottomText {
+    color: white;
+    position: relative;
+    left: 5em;
+    top: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bottomTv {
+    position: absolute;
+    left: 45em;
+    top: 20em;
+}
+
+#video {
+    position: relative;
+    top: 8em;
+    left: 5em;
+}
+
+#tv {
+    position: relative;
+    top: -16em;
+}
+
+.squishy {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: black;;
+}
+
+.squishy > div {
+    margin: 10px;
+    padding: 30px;
+}
+
+#line {
+    position: relative;
+    top: 4em;
+    border-width: 4px;
+    border-color: rgb(51, 49, 49) ;
+    border-style: solid;
+}
+
+.lineBottom {
+    position: relative;
+    top: -16em;
+    border-width: 4px;
+    border-color:rgb(51, 49, 49) ;
+    border-style: solid;
+}
+
+.chubby {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    background-color: black;;
+}
+
+.chubby > div {
+    margin: 10px;
+    padding: 30px;
+}
+
+#bottomScreenText {
+    color: white;
+    position: relative;
+    top: -13em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lowBox {
+    position: relative;
+    top: -8em;
+    left: 6em;
+    border-color: rgb(51, 49, 49);
+    background-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    height: 5.5em;
+    width: 340px;
+}
+
+#lowBoxText {
+    position: relative;
+    left: 70px;
+    top: -70px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#strange {
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
